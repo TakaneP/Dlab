@@ -170,7 +170,7 @@ always @(posedge clk) begin
         else data[0] = index1[7:4] + 48;
         if(index1[3:0] > 9) data[1] = index1[3:0] + 55;
         else data[1] = index1[3:0] + 48;
-        if(primetable[index1][11:7] > 9) data[2] = primetable[index1][11:7] + 55;
+        if(primetable[index1][11:8] > 9) data[2] = primetable[index1][11:8] + 55;
         else data[2] = primetable[index1][11:7] + 48;
         if(primetable[index1][7:4] > 9) data[3] = primetable[index1][7:4] + 55;
         else data[3] = primetable[index1][7:4] + 48;
@@ -181,7 +181,7 @@ always @(posedge clk) begin
         else data[5] = index2[7:4] + 48;
         if(index2[3:0] > 9) data[6] = index2[3:0] + 55;
         else data[6] = index2[3:0] + 48;
-        if(primetable[index2][11:7] > 9) data[7] = primetable[index2][11:7] + 55;
+        if(primetable[index2][11:8] > 9) data[7] = primetable[index2][11:8] + 55;
         else data[7] = primetable[index2][11:7] + 48;
         if(primetable[index2][7:4] > 9) data[8] = primetable[index2][7:4] + 55;
         else data[8] = primetable[index2][7:4] + 48;
@@ -201,7 +201,7 @@ always @(posedge clk) begin
         else data[0] = index2[7:4] + 48;
         if(index2[3:0] > 9) data[1] = index2[3:0] + 55;
         else data[1] = index2[3:0] + 48;
-        if(primetable[index2][11:7] > 9) data[2] = primetable[index2][11:7] + 55;
+        if(primetable[index2][11:8] > 9) data[2] = primetable[index2][11:8] + 55;
         else data[2] = primetable[index2][11:7] + 48;
         if(primetable[index2][7:4] > 9) data[3] = primetable[index2][7:4] + 55;
         else data[3] = primetable[index2][7:4] + 48;
@@ -212,7 +212,7 @@ always @(posedge clk) begin
         else data[5] = index1[7:4] + 48;
         if(index1[3:0] > 9) data[6] = index1[3:0] + 55;
         else data[6] = index1[3:0] + 48;
-        if(primetable[index1][11:7] > 9) data[7] = primetable[index1][11:7] + 55;
+        if(primetable[index1][11:8] > 9) data[7] = primetable[index1][11:8] + 55;
         else data[7] = primetable[index1][11:7] + 48;
         if(primetable[index1][7:4] > 9) data[8] = primetable[index1][7:4] + 55;
         else data[8] = primetable[index1][7:4] + 48;
