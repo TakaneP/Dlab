@@ -6,4 +6,4 @@ start to display prime numbers in the following format:
   If BTN3 is pressed, the scrolling direction will be reversed (scrollup
   becomes scroll-down, and vice versa)
   
-P.S. LCD_module.v and xdc file is provided by the TA.
+P.S. LCD_module.v , debounce.v and xdc file is provided by the TA.
