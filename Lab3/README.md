@@ -7,3 +7,5 @@ BTN2/BTN1 increases/decreases the brightness of the LEDs
 (all LEDs have the same brightness simultaneously)
 
 We control the brightness using PWM signal.
+
+P.S. The xdc file is to control the pin of the arty board and is provided by the TA.
