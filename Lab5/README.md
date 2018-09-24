@@ -1,4 +1,4 @@
-Goal1: Design a circuit to implement the sieve algorithm
+Goal1: Design a circuit to implement the sieve algorithm which can find the prime numbers.
 
 Goal2: Once all primes between 0 and 1023 are found, the LCD will
 start to display prime numbers in the following format:
