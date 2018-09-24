@@ -10,4 +10,5 @@ hexadecimal format.
 
 We use tera term as the UART terminal.
 
-P.S. The xdc file and uart.v is provided bu TA, not written by me.
+P.S. uart.v is provided bu TA, not written by me.
+The xdc file is not uploaded.
